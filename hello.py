@@ -4,6 +4,13 @@ class MainWindow(qtw.QWidget):
 	def __init__(self):
 		super().__init__()
 
+		self.setWindowTitle("Hello there!!")
+		self.setLayout(qtw.QVBoxLayout())
+
+		
+
+		my_label = qtw.QLabel("Hello World!!")
+		self.layout().addWidget(my_label)
 		self.show()
 
 
